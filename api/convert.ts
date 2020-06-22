@@ -5,5 +5,5 @@ export default (req: NowRequest, res: NowResponse) => {
   const body = req.body;
   const { html } = body;
   const convertedHtml = convert(html);
-  res.status(200).json(convertedHtml);
+  res.status(200).json({ data: convertedHtml });
 };
