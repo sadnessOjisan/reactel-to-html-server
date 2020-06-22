@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sadnessOjisan/html-to-jsx-to-html-server#readme",
   "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.10.3",
     "@vercel/node": "^1.7.1",
     "reactel-to-html": "^0.0.2"
   },
