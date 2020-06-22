@@ -18,7 +18,7 @@
   "homepage": "https://github.com/sadnessOjisan/html-to-jsx-to-html-server#readme",
   "dependencies": {
     "@vercel/node": "^1.7.1",
-    "html-jsx-html": "^0.0.4"
+    "reactel-to-html": "^0.0.2"
   },
   "devDependencies": {
     "typescript": "^3.9.5"
