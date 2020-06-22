@@ -5,6 +5,7 @@ import convert from "reactel-to-html";
 export default (req: NowRequest, res: NowResponse) => {
   const body = req.body;
   const { html } = body;
+  console.log("html", html);
   const convertedHtml = convert(html);
   res.status(200).json(convertedHtml);
 };
