@@ -190,6 +190,11 @@
     "@babel/helper-plugin-utils" "^7.10.3"
     "@babel/plugin-syntax-jsx" "^7.10.1"
 
+"@babel/standalone@^7.10.3":
+  version "7.10.3"
+  resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.10.3.tgz#aaabbf0fcfc82d595d3e1b9467b201d1a33a6e64"
+  integrity sha512-pGqfFo2VXa/Ei40T9kSpe8i87MzsOfAQJMpHRABTAjLZrH5IwskSqfAzBP5o2VJbpA4S34LMxOTZ26lirCCVFQ==
+
 "@babel/template@^7.10.1", "@babel/template@^7.10.3":
   version "7.10.3"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.10.3.tgz#4d13bc8e30bf95b0ce9d175d30306f42a2c9a7b8"
@@ -401,13 +406,14 @@ react@^16.13.1:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
 
-reactel-to-html@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/reactel-to-html/-/reactel-to-html-0.0.2.tgz#58b3393d61cbd2bdecb2a12d2a59545ea11326cd"
-  integrity sha512-bvTCOt7ZCc//9TOJl8TSj+e1ElV5G6v+64qFrJP503+xO/OahBpBLQl0/0xZlZAP2bZRMYFWRoU3JKm3uLppPQ==
+reactel-to-html@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/reactel-to-html/-/reactel-to-html-0.0.3.tgz#22cd10c8d4913249e3d86ec5c8a122aeb8b9a7c3"
+  integrity sha512-IvC1GHrzW9Mcl124jf2FuLgvsl2JGGr65D+zVh4caXtZN8NPIYMtL6DYBpHaBBCRr6ieKmuAU9Ooco/eWuULGA==
   dependencies:
     "@babel/core" "^7.10.3"
     "@babel/plugin-transform-react-jsx" "^7.10.3"
+    "@babel/standalone" "^7.10.3"
     react "^16.13.1"
     react-dom "^16.13.1"
 

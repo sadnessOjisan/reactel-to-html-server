@@ -20,7 +20,7 @@
     "@babel/core": "^7.10.3",
     "@babel/plugin-transform-react-jsx": "^7.10.3",
     "@vercel/node": "^1.7.1",
-    "reactel-to-html": "^0.0.2"
+    "reactel-to-html": "^0.0.3"
   },
   "devDependencies": {
     "typescript": "^3.9.5"
